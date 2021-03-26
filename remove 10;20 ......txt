@@ -1,0 +1,13 @@
+void main() {
+int pointer=10; //pointer hold num
+  for(int i=0;i<100;i++)
+  {
+    if(i==pointer)
+    {
+      i++;
+      pointer=pointer+10;
+    }
+    print("$i");
+  }
+      
+}
